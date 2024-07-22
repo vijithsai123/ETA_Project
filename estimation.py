@@ -4,7 +4,7 @@ import sklearn
 from sklearn.linear_model import LinearRegression
 import pickle
 
-model = pickle.load(open(r"C:\Users\vijit\MACHINE LEARNING\estimator.pkl","rb"))
+model = pickle.load(open(r"estimator.pkl","rb"))
 
 st.image("innomatics-logo.webp")
 st.title("Estimation of Time Arrival")
